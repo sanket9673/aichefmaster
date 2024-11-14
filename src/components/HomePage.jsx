@@ -9,9 +9,9 @@ const HomePage = () => {
 
   useEffect(() => {
     setTimeout(() => setShowE(true), 1500);
-    setTimeout(() => setShowTextLine1(true), 2000);
-    setTimeout(() => setShowTextLine2(true), 2500);
-    setTimeout(() => setShowTextLine3(true), 3000);
+    setTimeout(() => setShowTextLine1(true), 2050);
+    setTimeout(() => setShowTextLine2(true), 2100);
+    setTimeout(() => setShowTextLine3(true), 2650);
   }, []);
 
   const handleBackgroundLoad = () => {
