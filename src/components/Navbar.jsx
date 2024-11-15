@@ -39,8 +39,10 @@ const Navbar = () => {
         ))}
       </div>
 
-      <button className="bg-gray-700 hover:bg-gray-600 text-white py-1 px-4 mr-16 rounded">
-        Let's Start
+      <button className="inline-block py-2 px-2 space-x-3 bg-white text-[#000000] border-1 border-[#44d723] rounded-full text-base font-semibold uppercase tracking-wide transition-all duration-300 ease-in-out 
+                  hover:bg-[#44d723] hover:text-black hover:scale-105 hover:shadow-lg hover:ring-4 hover:ring-[#44d723] hover:ring-opacity-50 cursor-pointer 
+                  transform translate-x-[-40px]">
+         Let's Start
       </button>
     </nav>
   );
