@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className="bg-green-500 rounded-full h-8 w-8 flex items-center justify-center text-white font-bold">
           <span>🌿</span>
         </div>
-        <span className="text-lg font-semibold">AI CHEF MASTER</span>
+        <span className="text-lg font-semibold ">AI CHEF MASTER</span>
       </div>
 
       <div className="flex space-x-20">
@@ -28,10 +28,10 @@ const Navbar = () => {
           <NavLink
             key={item.href}
             to={item.href}
-            className="relative hover:text-gray-400"
-            // This adds an underline to the active nav item
+            className="relative text-white hover:text-green-500 transition-all duration-300 ease-in-out transform hover:scale-125"
+            // This adds an underline to the active nav item with green color
             style={({ isActive }) => ({
-              borderBottom: isActive ? '2px solid white' : 'none',
+              borderBottom: isActive ? '2px solid #48BB78' : 'none', // green underline when active
             })}
           >
             {item.label}
