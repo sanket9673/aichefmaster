@@ -7,7 +7,7 @@ const Product = () => {
       <div className="flex flex-col md:flex-row items-center max-w-6xl mx-auto gap-100">
         
         {/* Text Content (Left Side) */}
-        <div className="text-left md:text-left md:w-1/2 space-y-100">
+        <div className="text-center md:text-left md:w-1/2 space-y-100">
           <div className="bg-gray-800 text-orange-500 py-2 px-6 rounded-full font-semibold uppercase tracking-wide w-fit mx-auto md:mx-0">
             Welcome to AI Chef Master
           </div>
