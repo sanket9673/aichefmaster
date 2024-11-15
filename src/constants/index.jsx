@@ -61,3 +61,26 @@ export const benefitsData = [
     icon: '🌟',
   },
 ];
+
+export const items = [
+  {
+    title: "Strategic Vision",
+    description:
+      "We aim to push culinary limits and build our market influence by keeping users at the heart of what we do. Our vision for growth serves as a testament to our commitment to long-term impact and excellence in the culinary tech space."
+  },
+  {
+    title: "B2B Collaborations",
+    description:
+      "Our B2B solutions empower culinary businesses with tools for streamlined order management, inventory control, and detailed analytics. From invoicing to menu design, we enable partners to boost efficiency and productivity, ultimately elevating the dining experience for their customers."
+  },
+  {
+    title: "Innovation Through Diversity",
+    description:
+      "We believe that diversification is key to sustained success. By continually expanding our dish offerings, exploring new culinary trends, and staying responsive to market shifts, we ensure that our users always have fresh, relevant, and exciting choices."
+  },
+  {
+    title: "Leader in Culinary Tech",
+    description:
+      "Our long-term growth strategy is driven by our ambition to be a leader in culinary technology. By blending cutting-edge tech with a deep understanding of culinary trends, we set the stage for continuous innovation, unparalleled user experiences, and long-lasting impact."
+  }
+];
