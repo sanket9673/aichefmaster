@@ -168,7 +168,7 @@ const Product = () => {
         </div>
 
         {/* Image Section (Right Side) */}
-        <div className="relative flex justify-center md:justify-end items-center">
+        <div className="relative flex justify-center md:justify-end items-center ">
           {/* Decorative Orange Slices - Positioned Behind the Main Image */}
           <img
             src="/src/assets/orange.png" // Correct path
@@ -200,3 +200,4 @@ const Product = () => {
 };
 
 export default Product;
+
