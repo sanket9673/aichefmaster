@@ -16,7 +16,11 @@ export default {
         '11xl': '12rem', // 11xl font size
         '12xl': '14rem', // 12xl font size
       },
+      backgroundImage: {
+        'radial-gradient': "radial-gradient(circle, var(--tw-gradient-stops))",
+      },
     },
   },
   plugins: [],
 };
+
