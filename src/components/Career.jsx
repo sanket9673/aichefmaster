@@ -3,7 +3,7 @@ import { stepsData, benefitsData } from '../constants';
 
 const Career = () => {
   return (
-    <div className="flex justify-center pt-10">
+    <div className="flex justify-center pt-10 mt-16">
       {/* Outer Container with specific size and shadow */}
       <div
         className="shadow-lg p-8"

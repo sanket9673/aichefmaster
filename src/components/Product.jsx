@@ -152,7 +152,7 @@ const Product = () => {
   return (
     <div className="min-h-screen bg-black flex items-center justify-center text-white px-4">
       {/* Container for Content and Image */}
-      <div className="flex flex-col md:flex-row items-center max-w-6xl mx-auto gap-20">
+      <div className="flex flex-col md:flex-row items-center max-w-6xl mx-auto gap-20 mt-16">
         
         {/* Text Content (Left Side) */}
         <div className="text-left md:w-1/2 space-y-6">
@@ -168,7 +168,7 @@ const Product = () => {
         </div>
 
         {/* Image Section (Right Side) */}
-        <div className="relative flex justify-center md:justify-end items-center ">
+        <div className="relative flex justify-center md:justify-end items-center mt-16">
           {/* Decorative Orange Slices - Positioned Behind the Main Image */}
           <img
             src="/src/assets/orange.png" // Correct path
