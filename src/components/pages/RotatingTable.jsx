@@ -47,7 +47,7 @@ export function RotatingTable() {
         <img
           src={table}
           alt="Rotating Table"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
         />
       </div>
 
@@ -83,3 +83,90 @@ export function RotatingTable() {
     </motion.div>
   );
 }
+
+
+// "use client";
+
+// import React from "react";
+// import { motion } from "framer-motion";
+// // Import images from the assets folder
+// import dish1 from "../../assets/dish1.png";
+// import dish2 from "../../assets/dish2.png";
+// import dish3 from "../../assets/dish3.png";
+// import dish4 from "../../assets/dish3.png";
+// import table from "../../assets/table.png"; // Import the table image
+
+// const dishes = [
+//   {
+//     src: dish1,
+//     rotation: 0,
+//   },
+//   {
+//     src: dish2,
+//     rotation: 90,
+//   },
+//   {
+//     src: dish3,
+//     rotation: 180,
+//   },
+//   {
+//     src: dish4,
+//     rotation: 270,
+//   },
+// ];
+
+// export function RotatingTable() {
+//   return (
+//     <motion.div
+//       className="relative w-[600px] h-[600px]" // Reduced the size of the table
+//       animate={{ rotate: 360 }}
+//       transition={{
+//         duration: 40,
+//         repeat: Infinity,
+//         ease: "linear",
+//       }}
+//       style={{
+//         transformOrigin: "center center",
+//       }}
+//     >
+//       {/* Wooden Table */}
+//       <div className="absolute inset-0 rounded-full overflow-hidden">
+//         <img
+//           src={table}
+//           alt="Rotating Table"
+//           className="w-full h-full object-cover"
+//         />
+//       </div>
+
+//       {/* Dishes */}
+//       {dishes.map((dish, index) => (
+//         <motion.div
+//           key={index}
+//           className="absolute w-[120px] h-[120px]" // Further reduced dish size
+//           style={{
+//             top: "30%", // Adjusted for reduced table size
+//             left: "30%", // Adjusted for reduced table size
+//             transform: `rotate(${dish.rotation}deg) translate(0, -180px)`, // Adjusted spacing for smaller table
+//             transformOrigin: "center center",
+//           }}
+//         >
+//           <motion.div
+//             animate={{ rotate: -360 }}
+//             transition={{
+//               duration: 40,
+//               repeat: Infinity,
+//               ease: "linear",
+//             }}
+//             className="w-full h-full rounded-full overflow-hidden bg-white shadow-xl"
+//           >
+//             <img
+//               src={dish.src}
+//               alt={`Dish ${index + 1}`}
+//               className="w-full h-full object-cover"
+//             />
+//           </motion.div>
+//         </motion.div>
+//       ))}
+//     </motion.div>
+//   );
+// }

@@ -44,7 +44,7 @@ const HomePage = () => {
               showE ? 'opacity-100' : 'opacity-0'
             } transition-opacity duration-1000 text-6xl font-pompiere text-black-700 mb-2 w-full`}
           >
-            <span className="text-11xl font-montecarlo absolute left-1/4 transform translate-x-[130px] -translate-y-10 z-10">
+            <span className="lg:text-11xl md:text-9xl sm:text-6xl font-montecarlo absolute left-1/4 transform translate-x-[50px] -translate-y-10 z-10">
               E
             </span>
           </h1>
