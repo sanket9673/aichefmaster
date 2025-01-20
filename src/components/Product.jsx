@@ -242,6 +242,8 @@
 
 // export default Product
 
+
+
 "use client";
 
 import React, { useState, useEffect } from "react";
@@ -268,6 +270,7 @@ const Product = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
+          <div className="flex items-center justify-center">
           <motion.div
             className="bg-zinc-900/80 text-orange-500 py-2 px-6 rounded-full font-semibold uppercase tracking-wide w-fit mx-auto md:mx-0"
             whileHover={{ scale: 1.05 }}
@@ -275,13 +278,14 @@ const Product = () => {
           >
             Welcome to AI Chef Master
           </motion.div>
-
+          </div>
           <div>
-            <h2 className="text-6xl font-bold leading-snug">
+            <h2 className="text-6xl font-bold leading-snug text-center">
               Unlock Culinary Mastery with <br />
               <span className="text-orange-500">AI Chef Master</span>
             </h2>
-            <p className="text-lg mt-4">
+            <hr className="border-t-4 border-orange-500 my-4" />
+            <p className="text-lg mt-4 text-center">
               Elevate Your Cooking Experience with Intelligent, Personalized
               Guidance.
             </p>
