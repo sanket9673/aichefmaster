@@ -27,7 +27,7 @@ const Product = () => {
 
   return (
     <div className="h-screen bg-black flex items-center justify-center text-white px-4 overflow-hidden">
-      <div className="flex flex-col md:flex-row items-center max-w-7xl mx-auto gap-20">
+      <div className="flex flex-col md:flex-row items-center max-w-7xl mx-auto gap-20 mt-20">
         {/* Left Side */}
         <div className="text-left md:w-1/2 space-y-6">
           <AnimatePresence mode="wait">
@@ -48,11 +48,11 @@ const Product = () => {
                   >
                     {content.title}
                   </motion.div>
-                  <h2 className="text-6xl font-bold">{content.heading}</h2>
+                  <h2 className="text-5xl font-bold">{content.heading}</h2>
                   {content.subheading && (
                     <h3 className="text-2xl text-gray-300">{content.subheading}</h3>
                   )}
-                  <p className="text-lg text-gray-300">{content.description}</p>
+                  <p className="text-sm text-gray-300">{content.description}</p>
                   {content.points && (
                     <div className="space-y-4">
                       {content.points.map((point, i) => (
