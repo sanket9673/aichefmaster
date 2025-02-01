@@ -197,6 +197,7 @@ const Features = () => {
         </div>
       </div>
     </div>
+    
   )
 }
 
